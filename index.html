@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Olá <span id="name" class="name"></span></h1>
+      <p>Saldo disponível: R$ <span id="balance" class="balance"></span></p>
+      <div class="btns">
+        <button id="withdraw" onclick="withdraw()"
+        class="btn"
+        >Sacar</button>
+        <button id="deposit" onclick="deposit()"
+        class="btn"
+        >Depositar</button>
+      </div>
+      <div class="extract" id="extract">
+        <!--<p>Saque: -R$ <span class="withdrawal" >100</span></p>
+        <p>Depósito: +R$ <span class="deposited">100</span></p>-->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

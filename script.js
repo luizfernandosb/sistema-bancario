@@ -28,9 +28,9 @@ function showExtract() {
 showExtract();
 
 function showBalance() {
-  //const name = document.querySelector("#name");
-  //const getName = prompt("Digite seu nome");
-  //name.innerText = getName;
+  const name = document.querySelector("#name");
+  const getName = prompt("Digite seu nome");
+  name.innerText = getName;
 
     if (
       localBalance === 0 ||
